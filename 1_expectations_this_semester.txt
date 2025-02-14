@@ -1,0 +1,54 @@
+Assignment #1: Expectations for this Semester
+
+1.) Within the 3 years of studying in college, several programming languages has 
+been introduced to us. And as far as I can remember, the first programming language 
+that I encountered was Python.  My experience in Python was hard, as someone who 
+doesn’t have a background and is first time learning the programming. But with 
+the help and patience of our instructor Sir Christian Aquino, we had the 
+opportunity to learned its fundamentals from setting up our environment to 
+writing our first program and understanding syntax, control flow, variables, 
+data types, operators, functions, and etc. Unfortunately, I still don’t have an 
+experience for backend development or Node.js, but I am very much willing to 
+learn this because I want to challenge myself. 
+
+2.) 2. With this course, I am aiming to learn and understand how to do a 
+backend development. Starting with its fundamentals including different 
+frameworks and open-source programming languages to use, to its applications 
+and best practices that will help me enhance my expertise. 
+I hope to learn every skill that I can apply when developing a backend such as 
+building APIs, using Node.js, and Express because I want to help out on our 
+ongoing project that has a lot of backend development aspect. Furthermore, I am 
+interested in database management aspect of backend development, which creates 
+storage solutions for large amounts of information in application databases. 
+Specifically, I want to understand how to interact with the database using 
+MongoDB and PostgreSQL. I’m still unfamiliar with these technologies, so I am 
+looking forward in understanding and discussing them. Lastly, even though I am 
+not a programmer, I am certain that this will definitely help me improve myself, 
+my future career, and studies because it will provide me a background knowledge 
+about the backend development that I can utilize for future use, and as I take 
+this as an opportunity to be brave enough, challenging myself in new things that 
+I never expect myself to dive into. 
+
+3.) 3. Honestly, I think the most difficult aspect for me throughout this course, 
+would be the application or the coding part of backend development since there 
+are a lot of logic to keep in mind which includes working with databases, 
+building APIs, error handling, and the such. To overcome these challenges, 
+my plan is to focus, avoid distractions, take notes of important details, listen 
+actively, practice coding, and advanced learning. For the improvement of the 
+topics, I recommend to have a summarization of what have been discussed in the 
+whole session, highlight key points that could help the students what to focus 
+on, and a recap or recall of what have been discussed in the previous session to 
+reinforce understanding and retention. I also want to add a part where we 
+can have a regular coding reviews and pair programming sessions that can provide 
+practical experience. These strategies will help me to keep up with the 
+the complexities of backend development. 
+
+4.)4. I think I can succeed in this course if the instructor can break down 
+complex concepts into smaller, manageable parts with a clear, step-by-step 
+explanations. A instructor who provide timely and constructive feedback on my 
+assignments and projects to help me understand my strengths and areas for 
+improvement, and who uses engaging and diverse teaching materials such as 
+real-world examples, and hands-on projects. And accessible for questions and 
+additional guidance through office hours or discussion forums, incorporate 
+practical applications and real-world scenarios to make the learning experience 
+relevant and applicable. A instructor who always have patience to his students.
