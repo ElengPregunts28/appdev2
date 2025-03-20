@@ -18,7 +18,7 @@ const server = http.createServer( async (req, res) => {
     res.setHeader('Content-Type', 'text/plain');
     
     try {
-        if (pathname === '/create' && req.method === 'POST') {
+        if (pathname === '/create') {
             const filePath = path.join(__dirname, 'newfile.txt');
             await fs.writeFile(filePath, 'New File');
             fileEvents.emit('fileAction', `File created: ${filePath}`);
@@ -26,7 +26,7 @@ const server = http.createServer( async (req, res) => {
             res.end('File created successfully');
         }
         
-        else if (pathname === '/read' && req.method === 'GET') {
+        else if (pathname === '/read') {
             const filePath = path.join(__dirname, 'newfile.txt');
             const data = await fs.readFile(filePath, 'utf8');
             fileEvents.emit('fileAction', `File read: ${filePath}`);
@@ -34,7 +34,7 @@ const server = http.createServer( async (req, res) => {
             res.end(`File content: ${data}`);
         }
 
-        else if (pathname === '/update' && req.method === 'PUT') {
+        else if (pathname === '/update') {
             const filePath = path.join(__dirname, 'newfile.txt');
             await fs.appendFile(filePath, 'Appended content');
             fileEvents.emit('fileAction', `File updated: ${filePath}`);
@@ -42,7 +42,7 @@ const server = http.createServer( async (req, res) => {
             res.end('File updated successfully');
         }
 
-        else if (pathname === '/delete' && req.method === 'DELETE') {
+        else if (pathname === '/delete') {
             const filename = query.filename;
             if (!filename) {
                 res.statusCode = 400;
