@@ -6,6 +6,7 @@ const EventEmitter = require('events');
 
 const fileEvents = new EventEmitter();
 
+
 fileEvents.on("fileAction", (message) => {
     console.log(`File Action: ${message}`);
 });
@@ -16,7 +17,7 @@ const server = http.createServer( async (req, res) => {
     const query = parsedUrl.query;
 
     res.setHeader('Content-Type', 'text/plain');
-    
+
     try {
         if (pathname === '/create') {
             const filePath = path.join(__dirname, 'newfile.txt');
