@@ -7,7 +7,6 @@ const signUpSchema = Joi.object({
         .pattern(new RegExp("^[a-zA-Z0-9]+$")),
     email: Joi.string()
         .min(6)
-        .max(30)
         .required()
         .email({ tlds: { allow: ["com", "net"] } }),
     password: Joi.string()
