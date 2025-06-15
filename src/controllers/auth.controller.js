@@ -59,8 +59,18 @@ const signUp = async (req, res) => {
     }
 };
 
-const getUsers = (req, res) => {
-    res.json(User);
+const getUsers = async (req, res) => {
+    try {
+        const users = await User.find({});
+
+        res.status(200).json({
+            success: true, 
+            data: users,
+            message: "Users retrieved successfully"
+        });
+    } catch (error) {
+        return res.status(500).json("Failed to retrieve users:", error.message);
+    }
 };
 
 const signIn = async (req, res) => {
@@ -87,17 +97,17 @@ const signIn = async (req, res) => {
                 token: token,
                 message: "Welcome, you are logged in!",
             });
-        }  
-        
-        res.status(401).json({
-            status: false,
-            message: "Invalid password",
-        });
+        } else {
+            return res.status(401).json({
+                status: false,
+                message: "Invalid password",
+            });
+        }       
     }    
 
-    res.status(401).json({
+    return res.status(401).json({
         status: false,
-        message: "Invalid credentials",
+        message: "User not found",
     });
 };
 

@@ -1,5 +1,4 @@
 const express = require('express');
-
 const router = express.Router();
 const  {
     welcomeMessage,
@@ -8,7 +7,8 @@ const  {
     addNewBook,
     updateBook,
     deleteBook
-} = require('../controller/book.controller')
+} = require('../controllers/book.controller');
+const sendBookConfirmationEmail = require('../middlewares/send-email.middleware');
 
 router.get('/', welcomeMessage);
 
