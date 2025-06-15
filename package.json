@@ -5,7 +5,6 @@
   "main": "server.js",
   "scripts": {
     "dev": "nodemon --env-file=.env server.js",
-    "seed": "node src/seeders/seed.js"
   },
   "keywords": [],
   "author": "",
