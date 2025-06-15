@@ -3,10 +3,10 @@ Welcome to the BookHub API, a simple web service for managing book and user data
 
 This API provides endpoints for basic CRUD (Create, Read, Update, Delete) operations on books and users. It's built with Node.js, Express, and MongoDB, and is deployed on Render.
 
-# 🚀 Access the Deployed API
+## 🚀 Access the Deployed API
 You can access the live API at the following URL:
 
-## BookHub API Deployment URL(https://book-hub-x39l.onrender.com)
+## [BookHub API Deployment URL](https://book-hub-x39l.onrender.com)
 
 How to Use and Test the API:
 Since this is a backend API, it doesn't have a graphical user interface directly accessible via the root URL. To interact with it, you'll need an API client like Postman, Insomnia, or your browser's developer tools.
@@ -35,7 +35,7 @@ Here are some example endpoints you can try:
         "year": 1979
     }
     ```
-    
+
    - Expected Response: The created book object, including its ID.
 
 ## 👤 User Endpoints:
@@ -62,6 +62,6 @@ Here are some example endpoints you can try:
 
    - Expected Response: A success message, potentially with a JWT token.
 
-_Note:_ If your API requires authentication for certain routes (e.g., creating/updating/deleting books or users), you will need to first perform a POST request to your sign-in/login route to obtain a JSON Web Token (JWT), and then include this token in the Authorization header of subsequent requests (e.g., Authorization: Bearer YOUR_JWT_TOKEN_HERE).
+**Note:** If your API requires authentication for certain routes (e.g., creating/updating/deleting books or users), you will need to first perform a POST request to your sign-in/login route to obtain a JSON Web Token (JWT), and then include this token in the Authorization header of subsequent requests (e.g., Authorization: Bearer YOUR_JWT_TOKEN_HERE).
 
 Feel free to explore the API and its functionalities!
