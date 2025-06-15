@@ -1,4 +1,4 @@
-# BookHub API
+# 📚 BookHub API 
 Welcome to the BookHub API, a simple web service for managing book and user data!
 
 This API provides endpoints for basic CRUD (Create, Read, Update, Delete) operations on books and users. It's built with Node.js, Express, and MongoDB, and is deployed on Render.
